@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#container1 {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-card {
+    background-color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.action-card .container {
+    background-color: #333;
+    color: #fff; 
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto; 
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 1em;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 4em 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    border-radius: 8px;
+    flex-basis: 40%;
+}
+
+.hero-text {
+    flex-basis: 50%; 
+    padding-left: 2em;
+}
+
+.hero h1 {
+    margin: 0 0 0.5em;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1em;
+}
+.services, .about {
+    padding: 6em 0;
+}
+
+.services h2, .about h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    flex-basis: 30%;
+    background-color: #f4f4f4;
+    padding: 4em;
+    text-align: center;
+    margin: 1em
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
